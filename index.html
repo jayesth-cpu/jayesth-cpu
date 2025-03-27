@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="container">
+        <header class="header">
+            <div class="profile-section">
+                <div class="profile-image">
+                    <img src="https://github.com/jayesthsingh.png" alt="Profile Picture" id="profile-pic">
+                    <div class="status-indicator"></div>
+                </div>
+                <h1 class="name">Jayesthsingh</h1>
+                <p class="bio">Software Developer</p>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="stats-section">
+                <div class="stat-card">
+                    <i class="fas fa-code-branch"></i>
+                    <h3>Repositories</h3>
+                    <p id="repo-count">Loading...</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-star"></i>
+                    <h3>Stars</h3>
+                    <p id="star-count">Loading...</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Languages</h3>
+                    <p id="language-count">Loading...</p>
+                </div>
+            </section>
+
+            <section class="repos-section">
+                <h2>Featured Repositories</h2>
+                <div class="repos-grid" id="repos-grid">
+                    <!-- Repositories will be dynamically loaded here -->
+                </div>
+            </section>
+
+            <section class="skills-section">
+                <h2>Skills</h2>
+                <div class="skills-container" id="skills-container">
+                    <!-- Skills will be dynamically loaded here -->
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="social-links">
+                <a href="https://github.com/jayesth-cpu" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <p class="footer-text">Made with ❤️ and JavaScript</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
