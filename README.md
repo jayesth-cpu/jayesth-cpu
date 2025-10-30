@@ -38,3 +38,4 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
 </picture>
+[![An image of @jayesthcpu's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/jayesthcpu)](https://holopin.io/@jayesthcpu)
